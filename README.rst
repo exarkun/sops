@@ -857,7 +857,7 @@ This is very handy for reviewing changes or visualizing history.
 To configure sops to decrypt files during diff, create a `.gitattributes` file
 at the root of your repository that contains a filter and a command.
 
-... code::
+.. code::
 
 	*.yaml diff=sopsdiffer
 
